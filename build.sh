@@ -107,7 +107,6 @@ clone() {
                 git clone https://gitlab.com/LeCmnGend/proton-clang -b clang-19 --depth=1 clang
                 KBUILD_COMPILER_STRING="Proton clang 19.0"
 		PATH="${PWD}/clang/bin:${PATH}"
-	elif [ $COMPILER == "gcc" ]; then
 
 # Set function for naming zip file
 set_naming_for_bc() {
